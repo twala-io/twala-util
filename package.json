@@ -1,6 +1,6 @@
 {
   "name": "twala-signer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Package for signing Twala data",
   "main": "index.js",
   "scripts": {

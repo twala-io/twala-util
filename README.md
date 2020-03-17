@@ -10,5 +10,5 @@ Package for signing Twala data.
 # Installation
 
 ```sh-session
-$ npm install -g twala-signer
+$ npm install twala-signer
 ```
