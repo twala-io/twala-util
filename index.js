@@ -7,7 +7,7 @@ class TwalaSigner {
     this.web3 = new Web3(provider)
   }
 
-  async sign (privateKey, data) {
+  async sign (data, privateKey) {
     const hexedData = await this.web3.utils.asciiToHex(data)
     const signature = await this.web3.eth.accounts.sign(hexedData, privateKey)
     const message = signature.message
