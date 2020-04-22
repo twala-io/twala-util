@@ -33,7 +33,7 @@ const address = await util.recoverAddress(messageHash, v, r, s)
 ## Installation
 
 ```sh-session
-$ npm install twala-util
+$ npm i @twala/twala-util
 ```
 
 ## Contributing
