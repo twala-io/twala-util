@@ -13,7 +13,7 @@ A collection of utility functions for Twala.
 ```js
 const TwalaUtil = require('@twala-io/twala-util')
 const util = new TwalaUtil(web3Provider)
-const signature = await util.sign('sample data', privateKey)
+const signature = util.sign('sample data', privateKey)
 ```
 
 * Verify signature
@@ -34,14 +34,14 @@ const address = await util.recoverAddress(messageHash, v, r, s)
 ```js
 const TwalaUtil = require('@twala-io/twala-util')
 const util = new TwalaUtil(web3Provider)
-const hex = await util.convertAsciiToHex(ascii)
+const hex = util.convertAsciiToHex(ascii)
 ```
 
 * Convert Hex to ASCII
 ```js
 const TwalaUtil = require('@twala-io/twala-util')
 const util = new TwalaUtil(web3Provider)
-const ascii = await util.convertHexToAscii(hex)
+const ascii = util.convertHexToAscii(hex)
 ```
 
 ## Installation

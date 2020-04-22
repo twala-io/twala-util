@@ -9,9 +9,9 @@ class TwalaUtil {
     this.signatureVerifierContractAddress = '0x4Bf205fAb0BDaD0d2803b5f082E74bE53949FB41'
   }
 
-  async sign (data, privateKey) {
-    const hexedData = await this.web3.utils.asciiToHex(data)
-    const signature = await this.web3.eth.accounts.sign(hexedData, privateKey)
+  sign (data, privateKey) {
+    const hexedData = this.web3.utils.asciiToHex(data)
+    const signature = this.web3.eth.accounts.sign(hexedData, privateKey)
     const message = signature.message
     const messageHash = signature.messageHash
     const v = signature.v
@@ -50,13 +50,13 @@ class TwalaUtil {
     return address
   }
 
-  async convertAsciiToHex (ascii) {
+  convertAsciiToHex (ascii) {
     const hex = this.web3.utils.asciiToHex(ascii)
 
     return hex
   }
 
-  async convertHexToAscii (hex) {
+  convertHexToAscii (hex) {
     const ascii = this.web3.utils.hexToAscii(hex)
 
     return ascii
