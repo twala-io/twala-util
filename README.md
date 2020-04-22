@@ -30,10 +30,24 @@ const util = new TwalaUtil(web3Provider)
 const address = await util.recoverAddress(messageHash, v, r, s)
 ```
 
+* Convert ASCII to Hex
+```js
+const TwalaUtil = require('twala-util')
+const util = new TwalaUtil(web3Provider)
+const hex = await util.convertAsciiToHex(ascii)
+```
+
+* Convert Hex to ASCII
+```js
+const TwalaUtil = require('twala-util')
+const util = new TwalaUtil(web3Provider)
+const ascii = await util.convertHexToAscii(hex)
+```
+
 ## Installation
 
 ```sh-session
-$ npm i @twala/twala-util
+$ npm i @twala-io/twala-util
 ```
 
 ## Contributing

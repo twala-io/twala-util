@@ -49,6 +49,18 @@ class TwalaUtil {
 
     return address
   }
+
+  async convertAsciiToHex (ascii) {
+    const hex = this.web3.utils.asciiToHex(ascii)
+
+    return hex
+  }
+
+  async convertHexToAscii (hex) {
+    const ascii = this.web3.utils.hexToAscii(hex)
+
+    return ascii
+  }
 }
 
 module.exports = TwalaUtil
