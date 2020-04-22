@@ -1,5 +1,5 @@
 {
-  "name": "@twala/twala-util",
+  "name": "@twala-io/twala-util",
   "version": "1.0.0",
   "description": "A collection of utility functions for Twala.",
   "main": "index.js",
