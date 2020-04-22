@@ -11,35 +11,35 @@ A collection of utility functions for Twala.
 
 * Generate signature
 ```js
-const TwalaUtil = require('twala-util')
+const TwalaUtil = require('@twala-io/twala-util')
 const util = new TwalaUtil(web3Provider)
 const signature = await util.sign('sample data', privateKey)
 ```
 
 * Verify signature
 ```js
-const TwalaUtil = require('twala-util')
+const TwalaUtil = require('@twala-io/twala-util')
 const util = new TwalaUtil(web3Provider)
 const isSigned = await util.isSigned(address, messageHash, v, r, s)
 ```
 
 * Recover address
 ```js
-const TwalaUtil = require('twala-util')
+const TwalaUtil = require('@twala-io/twala-util')
 const util = new TwalaUtil(web3Provider)
 const address = await util.recoverAddress(messageHash, v, r, s)
 ```
 
 * Convert ASCII to Hex
 ```js
-const TwalaUtil = require('twala-util')
+const TwalaUtil = require('@twala-io/twala-util')
 const util = new TwalaUtil(web3Provider)
 const hex = await util.convertAsciiToHex(ascii)
 ```
 
 * Convert Hex to ASCII
 ```js
-const TwalaUtil = require('twala-util')
+const TwalaUtil = require('@twala-io/twala-util')
 const util = new TwalaUtil(web3Provider)
 const ascii = await util.convertHexToAscii(hex)
 ```
