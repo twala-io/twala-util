@@ -1,16 +1,25 @@
 {
-  "name": "twala-signer",
-  "version": "0.0.3",
-  "description": "Package for signing Twala data",
+  "name": "@twala/twala-util",
+  "version": "1.0.0",
+  "description": "A collection of utility functions for Twala.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twala-io/twala-util.git"
+  },
   "keywords": [
-    "twala"
+    "twala",
+    "utils"
   ],
-  "author": "@twala-io",
+  "author": "Twala",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twala-io/twala-util/issues"
+  },
+  "homepage": "https://github.com/twala-io/twala-util#readme",
   "dependencies": {
     "web3": "^1.2.6"
   }
