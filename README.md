@@ -3,9 +3,9 @@
 A collection of utility functions for Twala.
 
 ![Node.js CI](https://github.com/twala-io/twala-util/workflows/Node.js%20CI/badge.svg)
-[![Version](https://img.shields.io/npm/v/twala-util.svg)](https://npmjs.org/package/twala-util)
-[![Downloads/week](https://img.shields.io/npm/dw/twala-util.svg)](https://npmjs.org/package/twala-util)
-[![License](https://img.shields.io/npm/l/twala-util.svg)](https://github.com/twala-io/twala-util/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/@twala-io/twala-util.svg)](https://npmjs.org/package/@twala-io/twala-util)
+[![Downloads/week](https://img.shields.io/npm/dw/@twala-io/twala-util.svg)](https://npmjs.org/package/@twala-io/twala-utill)
+[![License](https://img.shields.io/npm/l/@twala-io/twala-util.svg)](https://github.com/twala-io/twala-util/blob/master/package.json)
 
 ## Features
 
