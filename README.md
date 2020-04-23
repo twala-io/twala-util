@@ -57,7 +57,7 @@ Keep it simple. Keep it minimal. Don't put every single feature just because you
 ## Authors
 
 * Alexander Paul P. Quinit
-* Edilberto Salvador D. Salvador
+* Edilberto D. Salvador Jr.
 
 ## License
 
