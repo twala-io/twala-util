@@ -44,6 +44,13 @@ const util = new TwalaUtil(web3Provider)
 const ascii = util.convertHexToAscii(hex)
 ```
 
+* Get Keccak-256 hash
+```js
+const TwalaUtil = require('@twala-io/twala-util')
+const util = new TwalaUtil(web3Provider)
+const hash = util.computeHash(string)
+```
+
 ## Installation
 
 ```sh-session

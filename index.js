@@ -61,6 +61,12 @@ class TwalaUtil {
 
     return ascii
   }
+
+  computeHash (string) {
+    const hash = this.web3.utils.keccak256(string)
+    
+    return hash
+  }
 }
 
 module.exports = TwalaUtil
