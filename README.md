@@ -61,10 +61,9 @@ $ npm i @twala-io/twala-util
 
 Keep it simple. Keep it minimal. Don't put every single feature just because you can.
 
-## Authors
+## Author
 
 * Alexander Paul P. Quinit
-* Edilberto D. Salvador Jr.
 
 ## License
 
